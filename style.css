@@ -92,7 +92,8 @@ body{
     background-color: #60cbff;
     color: #fff;
     border: none;
-    border-radius: 5px;
+    font-size: smaller;
+    border-radius: 10px;
     padding: 5px 10px;
     cursor: pointer;
     font-weight: bold;
@@ -101,4 +102,11 @@ body{
 
 .music-toggle:hover {
     background-color: #4da8cc;
+}
+
+@media (max-width: 768px) {
+    .game-details {
+        font-size: 12px; /* Diminui o tamanho da fonte */
+        padding: 5px; /* Ajusta o espaçamento */
+    }
 }
